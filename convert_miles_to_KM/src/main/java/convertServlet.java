@@ -18,6 +18,4 @@ public class convertServlet extends HttpServlet{
         RequestDispatcher dispatcher=request.getRequestDispatcher(resultPage);
         dispatcher.forward(request, response);
     }
- 
-    
 }
